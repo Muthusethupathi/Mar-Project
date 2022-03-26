@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-21T13:44:55.964Z",
+        "line": 3,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "automation-booking;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13496208900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is launch the application",
+            "match": {
+              "location": "com.stepdef.StepDefinition.user_is_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 428678000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the username in username field",
+            "match": {
+              "location": "com.stepdef.StepDefinition.enter_the_username_in_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 277684300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the password in password filed",
+            "match": {
+              "location": "com.stepdef.StepDefinition.enter_the_password_in_password_filed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160183500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Login button",
+            "match": {
+              "location": "com.stepdef.StepDefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Booking",
+    "description": "",
+    "id": "automation-booking",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Automation.feature",
+    "tags": []
+  }
+]

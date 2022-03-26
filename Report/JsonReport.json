@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-21T02:46:53.396Z",
+        "line": 3,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "automation-booking;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10217400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is launch the application",
+            "match": {
+              "location": "com.stepdef.StepDefinition.user_is_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the username in username field",
+            "match": {
+              "location": "com.stepdef.StepDefinition.enter_the_username_in_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the password in password filed",
+            "match": {
+              "location": "com.stepdef.StepDefinition.enter_the_password_in_password_filed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Login button",
+            "match": {
+              "location": "com.stepdef.StepDefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Booking",
+    "description": "",
+    "id": "automation-booking",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Automation.feature",
+    "tags": []
+  }
+]
